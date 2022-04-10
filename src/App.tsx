@@ -1,18 +1,15 @@
 import React from "react";
 
-import styles from "./App.module.css";
-
 // components
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import Form from "./pages/Form/Form";
 
 function App() {
   return (
     <div>
       <Header />
-      <main className={styles.main}>
-        <h1>Conteudo</h1>
-      </main>
+      <Form />
       <Footer />
     </div>
   );

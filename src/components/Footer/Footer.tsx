@@ -7,8 +7,13 @@ const Footer = () => {
     <div>
       <footer className={styles.footer}>
         <p>
-          <span>React + TS Todo</span> @ 2022
+          <span>Gerenciador de tarefas</span>
+          <h5>React Typescript</h5>
         </p>
+        <p> &copy; 2022</p>
+        <h5>
+          Developed by <span>Jailson Prado</span>
+        </h5>
       </footer>
     </div>
   );

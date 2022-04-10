@@ -5,9 +5,22 @@
     justify-content: center;
     background-color: #282c34;
     color: #fff;
+    flex-direction: column;
 }
 
 .footer span {
     font-weight: bold;
-    color: #61dafb
+    color: #61dafb;
+    text-align: center;
+}
+
+   p {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top:10px;
+}
+
+h5 {
+    margin-top: 10px;
 }
