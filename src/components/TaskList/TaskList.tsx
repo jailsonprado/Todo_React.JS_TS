@@ -12,12 +12,19 @@ const TaskList = ({ taskList }: Props) => {
     <>
       {taskList.length > 0 ? (
         taskList.map((task) => (
-          <div className={styles.title} key={task.id}>
-            <p>{task.title}</p>
+          <div key={task.id} className={styles.task}>
+            <div className={styles.details}>
+              <h4>{task.title}</h4>
+              <p>Dificuldade: {task.difficulty}</p>
+            </div>
+            <div className={styles.actions}>
+              <i className="bi bi-pencil"></i>
+              <i className="bi bi-trash"></i>
+            </div>
           </div>
         ))
       ) : (
-        <p style={{ color: "black" }}>Sem tarefas.</p>
+        <p>Sem tarefas.</p>
       )}
     </>
   );
