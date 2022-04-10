@@ -4,6 +4,9 @@ import TaskList from "../../components/TaskList/TaskList";
 
 import styles from "./form.module.css";
 
+// Interface
+import { ITask } from "../../interfaces/Task";
+
 const Form = () => {
   return (
     <main className={styles.main}>
